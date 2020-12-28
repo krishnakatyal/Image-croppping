@@ -16,4 +16,20 @@
 
 python setup.py install
 
+or 
+
+pip install katna
+
 In the cropper.py change the image path
+
+requirements:
+
+pip install opencv-contrib-python==3.4.2.17
+
+for easy installaion:
+
+pip3 install smartcrop
+pip install katna
+
+
+
