@@ -4,7 +4,7 @@
 
 1>pip3 install smartcrop
 
-2>smartcroppy --width 300 --height 300 imagepath/imagename.jpg output.jpg 
+### smartcroppy --width 300 --height 300 imagepath/imagename.jpg output.jpg 
 
 ## how to use katana
 
@@ -19,14 +19,15 @@ python setup.py install
 or 
 
 pip install katna
+Then
 
-In the cropper.py change the image path
+### In the cropper.py change the image path
 
-Requirements:
+### Requirements:
 
 pip install opencv-contrib-python==3.4.2.17
 
-For easy installaion:
+### For easy installaion:
 
 pip3 install smartcrop
 pip install katna
