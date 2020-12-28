@@ -16,3 +16,4 @@
 
 python setup.py install
 
+In the cropper.py change the image path
