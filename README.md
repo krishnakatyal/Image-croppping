@@ -30,6 +30,7 @@ pip install opencv-contrib-python==3.4.2.17
 ### For easy installaion:
 
 pip3 install smartcrop
+
 pip install katna
 
 
