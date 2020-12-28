@@ -9,7 +9,10 @@
 ## how to use katana
 
 1>clone this repo
+
 2> Change the directory to the directory where you have cloned your repo
+
 3> Run the setup
+
 python setup.py install
 
