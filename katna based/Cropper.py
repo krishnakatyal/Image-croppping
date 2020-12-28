@@ -17,17 +17,17 @@ def main():
         os.mkdir(os.path.join(".", output_folder_cropped_image))
 
     # number of images to be returned
-    no_of_crops_to_returned = 3
+    no_of_crops_to_returned = 1
 
     # crop dimentions
-    crop_width = 1100
-    crop_height = 600
-    crop_aspect_ratio = "4:3"
+    crop_width = 300
+    crop_height = 300
+    crop_aspect_ratio = "1:1"
 
     # Filters
     filters = ["text"]
     # Image file path
-    image_file_path = os.path.join(".", "tests", "data", "bird_img_for_crop.jpg")
+    image_file_path = #give path of image
     print(f"image_file_path = {image_file_path}")
 
     # crop_image_with_aspect(
@@ -39,7 +39,7 @@ def main():
         crop_aspect_ratio=crop_aspect_ratio,
         num_of_crops=no_of_crops_to_returned,
         filters=filters,
-        down_sample_factor=8,
+        down_sample_factor=16,
     )
     # im = cv2.imread(image_file_path)
     # print(im.shape)
